@@ -12,6 +12,7 @@ export const Tag = (props) => {
 											fontFamily: 'Righteous',
 											...props.add
 										}}
+										className={props.clsRespnsive}
 	
 									 >{props.children}</div>
 

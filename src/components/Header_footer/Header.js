@@ -32,12 +32,16 @@ export default class Header extends Component {
 						</div>
 					</div>
 
-					<Link to="/the_team">
+					<Link to="/the_team" className="head_link">
 						<Button color="inherit">The team</Button>
 					</Link>
 
-					<Link to="/the_matches">
+					<Link to="/the_matches" className="head_link">
 						<Button color="inherit">Matches</Button>
+					</Link>
+
+					<Link to="/sign_in" className="head_link">
+						<Button color="inherit">Sign in</Button>
 					</Link>
 
 				</Toolbar>

@@ -29,6 +29,13 @@ export default class HomeCards extends Component {
 		]
 	}
 
+	componentDidMount() {
+		let cardAmount = window.innerWidth > 768 ?  this.state.cards : this.state.cards.splice(0, 2);
+		this.setState({
+			cards: this.state.cards
+		})
+	}
+
 	showAnimateCards = () => (
 		this.state.cards.map((card, i) => (
 			<Animate

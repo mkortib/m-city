@@ -36,35 +36,32 @@ export default class MeetPlayers extends Component {
 									bck="#0e1732"
 									size="100px"
 									color="#fff"
+									clsRespnsive="tag_responsive"
 									add={{
 										display: 'inline-block',
 										marginBottom: '20px'
 									}}
 								>Meet</Tag>
-							</div>
-							<div>
 								<Tag
 									bck="#0e1732"
 									size="100px"
 									color="#fff"
+									clsRespnsive="tag_responsive"
 									add={{
 										display: 'inline-block',
 										marginBottom: '20px'
 									}}
 								>The</Tag>
-							</div>
-							<div>
-								<Tag
+									<Tag
 									bck="#0e1732"
 									size="100px"
 									color="#fff"
+									clsRespnsive="tag_responsive"
 									add={{
 										display: 'inline-block',
 										marginBottom: '20px'
 									}}
 								>Players</Tag>
-							</div>
-							<div>
 								<Tag
 									bck="#fff"
 									size="27px"

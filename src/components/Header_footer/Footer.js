@@ -14,7 +14,7 @@ export default function Footer() {
 				/>
 			</div>
 			<div className="footer_discl">
-				Manchester city {new Date().getFullYear().toString()}.All rights reserved.
+				Manchester city {new Date().getFullYear().toString()}. All rights reserved.
 			</div>
 		</footer>
 	)

@@ -682,3 +682,360 @@ footer .footer_discl {
     text-align: center;
     margin-top: 200px;
 }
+
+
+/*=============================
+            SCROLLBAR
+===============================*/
+
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	background-color: #0ae;
+	
+	background-image: -webkit-gradient(linear, 0 0, 0 100%,
+	                   color-stop(.5, rgba(255, 255, 255, .2)),
+					   color-stop(.5, transparent), to(transparent));
+}
+
+#root {
+    overflow-x: hidden;
+}
+
+/*=============================
+            MEDIA QUERIES
+===============================*/
+
+@media screen and (max-width: 1280px) {
+
+    /* HOME PAGE */
+
+    .featured_wrapper {
+        max-width: 1148px;
+        width: 100%;
+        height: 740px;
+    }
+
+    .featured_first, .featured_second {
+        font-size: 70px;
+    } 
+
+    .featured_first {
+        margin: 30px 0 0 0;
+    }
+
+    .featured_number {
+        font-size: 240px;
+        margin: 59px 0 0 0;
+    }
+
+    .featured_player {
+        width: 412px;
+        height: 480px;
+    }
+
+    .featured_text {
+        top: -33px;
+    }
+
+    .container {
+        max-width: 945px;
+        width: 100%;
+    }
+
+    .home_matches_wrapper .home_matches {
+        margin-top: 40px;
+    }
+
+    .player_card_wrapper {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .player_card_wrapper .player_card_number {
+        font-size: 160px;
+        line-height: 160px;
+    }
+
+    .player_card_wrapper .player_card_thmb {
+        height: 220px;
+    }
+
+    .home_meetplayers .home_card_wrapper {
+        max-width: 500px;
+    }
+
+    .tag_responsive {
+        font-size: 90px!important;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    /* HOME PAGE */
+
+    .featured_wrapper {
+        max-width: 100%;
+        width: 100%;
+        height: 680px;
+    }
+
+    .featured_stripes {
+        left: -250px;
+    }
+
+    .featured_first, .featured_second {
+        font-size: 70px;
+    } 
+
+    .featured_first {
+        margin: 30px 0 0 0;
+    }
+
+    .featured_number {
+        font-size: 240px;
+        margin: 59px 0 0 0;
+    }
+
+    .featured_player {
+        width: 412px;
+        height: 480px;
+    }
+
+    .featured_text {
+        top: -70px;
+        left: -216px;
+    }
+
+    .container {
+        max-width: 720px;
+        width: 100%;
+    }
+
+    .home_matches_wrapper .home_matches {
+        margin-top: 30px;
+    }
+
+    .player_card_wrapper {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .player_card_wrapper .player_card_number {
+        font-size: 160px;
+        line-height: 160px;
+    }
+
+    .player_card_wrapper .player_card_thmb {
+        height: 220px;
+    }
+
+    .home_meetplayers .home_card_wrapper {
+        max-width: 500px;
+    }
+
+    .tag_responsive {
+        font-size: 90px!important;
+    }
+
+    .match_block .match_wrapper .match_top .left .team_name, .match_block .match_wrapper .match_bottom .left .team_name {
+        font-size: 26px;
+        padding: 10px;
+    }
+
+    .home_matches_wrapper .home_matches .item {
+        margin: 25px 0 25px;
+    }
+
+    .home_meetplayers_wrapper {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+
+    .promotion_wrapper .promotion_animation .left {
+        font-size: 130px;
+        line-height: 124px;
+    }
+
+    .promotion_wrapper {
+        padding: 0 0px 45px 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* HOME PAGE */
+
+    .featured_wrapper {
+        max-width: 100%;
+        width: 100%;
+        height: 509px;
+        margin-top: 78px;
+    }
+
+    .featured_stripes {
+        left: -216px;
+    }
+
+    .featured_first, .featured_second {
+        font-size: 33px;
+    } 
+
+    .featured_first {
+        margin: 84px 0 0 0;
+    }
+
+    .featured_number {
+        font-size: 152px;
+        margin: 198px 0 0 0;
+    }
+
+    .featured_player {
+        left: -253px;
+        width: 412px;
+        height: 480px;
+    }
+
+    .featured_text {
+        top: -196px;
+        left: -253px;
+    }
+
+    .container {
+        max-width: 720px;
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .home_matches_wrapper .home_matches {
+        margin-top: 30px;
+    }
+
+    .player_card_wrapper {
+        max-width: 188px;
+        width: 100%;
+    }
+
+    .player_card_wrapper .player_card_number {
+        font-size: 130px;
+        line-height: 130px;
+    }
+
+    .player_card_wrapper .player_card_thmb {
+        height: 192px;
+    }
+
+    .home_meetplayers .home_card_wrapper {
+        max-width: 500px;
+        width: 100%;
+        min-height: 442px;
+    }
+
+    .tag_responsive {
+        font-size: 75px!important;
+    }
+
+    .match_block .match_wrapper .match_top .left .team_name, .match_block .match_wrapper .match_bottom .left .team_name {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .home_matches_wrapper .home_matches .item {
+        margin: 25px 0 25px;
+        width: 100%;
+    }
+
+    .home_meetplayers_wrapper {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+
+    .promotion_wrapper .promotion_animation .left {
+        font-size: 130px;
+        line-height: 124px;
+    }
+
+    .promotion_wrapper {
+        padding: 0 0px 45px 0px;
+    }
+
+    .promotion_wrapper .promotion_animation {
+        flex-direction: column;
+        padding: 60px 0 30px 0;
+    }
+
+    .promotion_wrapper .promotion_animation .left {
+        font-size: 77px;
+        text-align: center;
+        line-height: 77px;
+        order: 2;
+        margin: 20px 0 0 0;
+    }
+
+    .promotion_wrapper .promotion_animation .right {
+        order: 1;
+    }
+
+    .promotion_wrapper .promotion_animation .right div {
+        margin: auto
+    }
+
+    .home_matches_wrapper .home_matches {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home_meetplayers .home_text_wrapper {
+        max-width: 300px;
+        width: 100%;
+        padding: 0 0 0 15px;
+    }
+
+    .promotion_wrapper .enroll_input {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+
+    footer .img_cover {
+        width: 50px!important;
+        height: 50px!important;
+    }
+
+    .head_link {
+        max-width: 74px;
+    } 
+
+    .head_link button {
+        padding: 8px 9px;
+        font-size: 0.775rem;
+    } 
+
+    .link_logo div {
+        width: 50px!important;
+        height: 50px!important;
+    }
+
+    .promotion_wrapper .container {
+        padding: 0;
+    }
+}
