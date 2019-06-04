@@ -223,9 +223,6 @@ export default class AddEditPlayers extends Component {
 	}
 
 	render() {
-
-		console.log(this.state.formdata)
-
 		return (
 			<AdminLayout>
 				<div className="editplayers_dialog_wrapper">

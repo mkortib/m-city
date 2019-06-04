@@ -595,7 +595,7 @@ footer .footer_discl {
 .editmatch_dialog_wrapper,
 .editplayers_dialog_wrapper {
     padding: 20px;
-    width: 480px;
+    max-width: 480px;
 }
 
  
@@ -780,6 +780,12 @@ body::-webkit-scrollbar-thumb
         font-size: 90px!important;
     }
 
+    /* THE TEAMS PAGE */
+
+    .team_cards .player_card_wrapper {
+        width: 300px;
+    }
+
 }
 
 
@@ -875,6 +881,41 @@ body::-webkit-scrollbar-thumb
     .promotion_wrapper {
         padding: 0 0px 45px 0px;
     }
+
+    /* THE MATCHES PAGE */
+
+    .the_matches_wrapper .right {
+        width: 43%;
+    }
+
+    .match_box_big .icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .match_box_big .block .team, .match_box_big .block .result {
+        font-size: 16px;
+        line-height: 44px;
+        margin-left: 18px;
+    }
+
+    .block_wraper.nfo {
+        position: relative;
+        font-size: 14px;
+    }
+
+    .match_box_big {
+        padding: 20px 10px 20px 20px;
+    }
+
+    .match_box_big .block_wraper {
+        margin-right: 11px;
+    }
+
+    .block_wraper.nfo div {
+        margin: 10px 0;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -1038,4 +1079,160 @@ body::-webkit-scrollbar-thumb
     .promotion_wrapper .container {
         padding: 0;
     }
+
+    /* THE TEAMS PAGE */
+
+    .the_team_container {
+        margin-top: 75px;
+    }
+
+    .team_category_wrapper .title {
+        font-size: 77px;
+        text-align: center;
+    }
+
+    .team_category_wrapper .team_cards {
+        justify-content: center;
+    }
+
+    .team_category_wrapper .team_cards .item {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    /* THE MATCHES PAGE */
+
+    .the_matches_wrapper {
+        flex-direction: column;
+    }
+
+    .the_matches_container {
+        margin-top: 76px;
+    }
+
+    .the_matches_wrapper .right {
+        width: 100%;
+    }
+
+    .block_wraper.nfo div {
+        margin: 5px 0;
+        max-width: 135px;
+    }
+
+    .match_box_big .block .team, .match_box_big .block .result {
+        margin-left: 8px;
+        font-size: 14px;
+    }
+
+    .match_box_big {
+        padding: 20px 10px;
+    }
+
+    .block_wraper.nfo {
+        margin-right: 0;
+    }
+
+    .match_box_big .icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .match_filters_box {
+        padding: 10px;
+    }
+
+    .match_filters .option {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        font-size: 12px;
+    }
+
+    /* LOGIN PAGE */
+
+    .signin_wrapper {
+        margin: 96px 0 0 0!important;
+        padding: 20px 0 0 0;
+        position: relative;
+        left: -15px;
+        height: 65vh;;
+    }
+
+    .signin_wrapper form {
+        max-width: 275px;
+    }
+
+    .signin_wrapper h2 {
+        font-size: 45px;
+        margin: 10px 0px 37px!important;
+    }
+
+    /* ADMIN PANEL */
+
+    .admin_container {
+        flex-direction: column;
+        margin-top: 78px;
+    }
+
+    .admin_container .admin_left_nav {
+        min-height: 1px;
+    }
+
+    .admin_container .admin_left_nav > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .admin_container .admin_left_nav > div a > div {
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    .admin_container .admin_left_nav > div a {
+        width: 100%;
+    }
+
+    .admin_container .admin_left_nav > div > div {
+        max-width: 110px;
+        font-size: 14px;
+        justify-content: center;
+    }
+
+    .table_block th {
+        padding: 4px 9px 4px 24px;
+    }
+
+    .table_block td {
+        padding: 4px 9px 4px 24px;
+    }
+
+    .table_block td, .table_block th {
+        text-align: center;
+    }
+
+    .table_block2 th {
+        padding: 4px 3px 4px 16px;
+    }
+
+    .table_block2 td {
+        padding: 4px 3px 4px 16px;
+    }
+
+    .editmatch_dialog_wrapper, .editplayers_dialog_wrapper {
+        max-width: 400px;
+    }
+
+    .admin_container h2 {
+        font-size: 30px;
+        margin: 20px 0 30px 0;
+    }
+
+    .label_inputs {
+        font-size: 18px;
+    }
+    
+
 }

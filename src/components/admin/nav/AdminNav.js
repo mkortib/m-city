@@ -42,7 +42,7 @@ export default function AdminNav() {
 
 	const logoutHandler = () => {
 		firebase.auth().signOut().then(() => {
-			console.log('Vasya');
+			console.log('Allow');
 		}, (error) => {
 			console.log('Error');
 		})

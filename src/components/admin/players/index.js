@@ -33,12 +33,9 @@ export default class AdminPlayers extends Component {
 	}
 
 	render() {
-
-		console.log(this.state.players);
-
 		return (
 			<AdminLayout>
-				<div>
+				<div className="table_block2">
 
 					<Paper>
 						<Table>

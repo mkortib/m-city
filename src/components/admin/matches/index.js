@@ -33,7 +33,7 @@ export default class AdminMatches extends Component {
 	render() {
 		return (
 			<AdminLayout>
-				<div>
+				<div className="table_block">
 
 					<Paper>
 						<Table>
