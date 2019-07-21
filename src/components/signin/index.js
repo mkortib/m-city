@@ -103,7 +103,7 @@ export default class SignIn extends Component {
 						
 						<h2>Please Login</h2>
 					  <div className="demo_login">
-							<div>demo login: user@gmail.com</div>
+							<div>demo login: user@mail.com</div>
 							<div>demo password: test_user</div>
 						</div>
 
