@@ -14,8 +14,8 @@ export default function Footer() {
 				/>
 			</div>
 			<div className="footer_discl">
-				Manchester city {new Date().getFullYear().toString()}. All rights reserved.
-				Creted by Maksim Kobria
+				Manchester city {new Date().getFullYear().toString()}. All rights reserved. <br/>
+				Creted by Maksim Kobria <br/>
                                 Support tel: +380 (44) 468 85 45 
 			</div>
 		</footer>
